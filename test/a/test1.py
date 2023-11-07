@@ -20,9 +20,7 @@ from sklearn.cluster import KMeans
 from sklearn.ensemble import IsolationForest
 from sklearn.metrics import silhouette_samples, silhouette_score
 #!111
-a=1
-b=1
-c=1
+
 warnings.filterwarnings("ignore")
 
 urls = (
@@ -31,7 +29,7 @@ urls = (
 
 app = web.application(urls, globals())
 
-
+a=1
 class Calculate(object):
 
     # @profile
