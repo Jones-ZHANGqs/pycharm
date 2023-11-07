@@ -22,6 +22,7 @@ from sklearn.metrics import silhouette_samples, silhouette_score
 #!111
 a=1
 b=1
+c=1
 warnings.filterwarnings("ignore")
 
 urls = (
