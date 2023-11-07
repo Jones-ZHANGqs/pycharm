@@ -1,12 +1,6 @@
 import warnings
 # from memory_profiler import profile
-from collections import Counter
 
-import joblib
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import requests
 import web
 from sklearn import metrics
 from sklearn import preprocessing
