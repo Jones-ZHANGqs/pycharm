@@ -393,7 +393,7 @@ class load_time_elasticity:
                 f.write("\n"+">>>" * 10+"train"+">>>" * 10+"\n")
                 f.write(datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))
                 f.write(traceback.format_exc())"""
-
+#1
         if status == 200:
             try:
                 df_day = pd.DataFrame({"collect_time_day": collect_time_day, "min_temperature": min_temperature,
