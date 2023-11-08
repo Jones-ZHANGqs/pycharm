@@ -1,7 +1,7 @@
 import warnings
 # from memory_profiler import profile
 
-import requests
+
 import web
 
 # !111
